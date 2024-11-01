@@ -1,17 +1,15 @@
 #!/bin/bash
 
-# Script to compile the NeuraOS kernel module
+# compile_kernel_module.sh
+# Compiles the NeuraOS kernel module.
 
-# Navigate to the kernel_module directory
-cd NeuraOS/kernel_module
+# Exit immediately if a command exits with a non-zero status
+set -e
 
-# Compile the kernel module
+PROJECT_ROOT="NeuraOS"
+
+echo "Compiling the kernel module..."
+cd "$PROJECT_ROOT/kernel_module"
 make
 
-# Check if the compilation was successful
-if [ -f ai_os_module.ko ]; then
-    echo "Kernel module compiled successfully."
-else
-    echo "Failed to compile the kernel module."
-    exit 1
-fi
+echo "Kernel module compiled successfully."
