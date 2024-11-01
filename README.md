@@ -124,7 +124,7 @@ Creates the NeuraOS project structure and populates essential files with their r
 ./scripts/create_project.sh
 ```
 
-2. `install_dependencies.sh`
+#### 2. `install_dependencies.sh`
 
 **Description:**  
 Installs necessary system and Python dependencies required for NeuraOS.
@@ -135,7 +135,7 @@ Installs necessary system and Python dependencies required for NeuraOS.
 ./scripts/install_dependencies.sh
 ```
 
-3. `compile_kernel_module.sh`
+#### 3. `compile_kernel_module.sh`
 
 **Description:**  
 Compiles the NeuraOS kernel module.
@@ -146,7 +146,7 @@ Compiles the NeuraOS kernel module.
 ./scripts/compile_kernel_module.sh
 ```
 
-4. `install_kernel_module.sh`
+#### 4. `install_kernel_module.sh`
 
 **Description:**  
 Inserts the compiled NeuraOS kernel module into the running kernel.
@@ -157,7 +157,7 @@ Inserts the compiled NeuraOS kernel module into the running kernel.
 ./scripts/install_kernel_module.sh
 ```
 
-5. `run_user_space.sh`
+#### 5. `run_user_space.sh`
 
 **Description:**  
 Starts the NeuraOS user-space services, including the command handler daemon.
@@ -168,7 +168,7 @@ Starts the NeuraOS user-space services, including the command handler daemon.
 ./scripts/run_user_space.sh
 ```
 
-6. `clean_project.sh`
+#### 6. `clean_project.sh`
 
 **Description:**  
 Cleans the NeuraOS project by removing build artifacts and stopping services.
