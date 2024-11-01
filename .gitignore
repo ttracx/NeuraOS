@@ -1,0 +1,28 @@
+# Compiled Object Files
+*.o
+
+# Kernel Module
+*.ko
+*.mod.c
+*.symvers
+*.order
+
+# Build Directory
+build/
+
+# Python Bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment Variables
+.env
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
