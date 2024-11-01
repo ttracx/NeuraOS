@@ -15,7 +15,6 @@
   - [Architecture](#architecture)
     - [High-Level Architecture Diagram](#high-level-architecture-diagram)
     - [Components Description](#components-description)
-  - [Directory Structure](#directory-structure)
   - [Installation](#installation)
     - [Prerequisites](#prerequisites)
     - [Setup Scripts](#setup-scripts)
@@ -93,27 +92,6 @@ NeuraOS leverages a hybrid architecture that combines kernel-space and user-spac
 
 ---
 
-## Directory Structure
-
-NeuraOS/
-├── kernel_module/
-│   ├── ai_os_module.c
-│   └── Makefile
-├── user_space/
-│   ├── llm_service.py
-│   ├── command_handler.py
-│   └── context_manager.py
-├── scripts/
-│   ├── create_project.sh
-│   ├── install_dependencies.sh
-│   ├── compile_kernel_module.sh
-│   ├── install_kernel_module.sh
-│   ├── run_user_space.sh
-│   └── clean_project.sh
-├── README.md
-└── .gitignore
-
----
 
 ## Installation
 
