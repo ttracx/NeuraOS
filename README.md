@@ -18,7 +18,6 @@
   - [Installation](#installation)
     - [Prerequisites](#prerequisites)
     - [Setup Scripts](#setup-scripts)
-      - [1. `create_project.sh`](#1-create_projectsh)
     - [Configuration](#configuration)
       - [OpenAI API Key](#openai-api-key)
   - [Usage](#usage)
